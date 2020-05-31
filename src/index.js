@@ -69,7 +69,7 @@ class QuoteWrapper extends React.Component {
             </div>
             <p id="author">- {this.props.actualQuote.author==null?"Unknown":this.props.actualQuote.author}</p>
             <div id="btn-container">
-              <a className="button" id="tweet-quote" href={'https://twitter.com/intent/tweet?hashtags=ReactQuoteMachine&text='+this.props.actualQuote.text+'%0D-'+this.props.actualQuote.author+'%0D'} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faHashtag} />   Tweet Quote</a>
+              <a className="button" id="tweet-quote" href={'https://twitter.com/intent/tweet?hashtags=ReactQuoteMachine&text='+this.props.actualQuote.text+'%0D-'+this.props.actualQuote.author+'%0D%0DGet your own quote at https://flamendialis.github.io/random-quote-machine/'} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faHashtag} />   Tweet Quote</a>
               <button className="button" id="new-quote" onClick = {this.refresh}><FontAwesomeIcon icon={faRedo} /> New Quote</button>
             </div>
           </div>
