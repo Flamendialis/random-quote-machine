@@ -8,3 +8,5 @@ Random quote machine created as part of the freeCodeCamp Front End Libraries cou
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Published at [https://flamendialis.github.io/random-quote-machine/](https://flamendialis.github.io/random-quote-machine/)
+
+![page previews](https://i.imgur.com/YObkwLK.png)
